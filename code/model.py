@@ -1,9 +1,7 @@
-# model.py
 
 import numpy as np
 
 def calculate_risk_score(responses):
-    # Responses are 0 to 3 each (PHQ-9 style scoring)
     score = np.sum(responses)
 
     if score <= 4:
@@ -14,3 +12,4 @@ def calculate_risk_score(responses):
         return score, "Moderate", "This may be affecting your daily life. Talking to someone you trust may help."
     else:
         return score, "High", "It is recommended to consult a mental health professional for support."
+
