@@ -5,10 +5,9 @@ import plotly.graph_objects as go
 st.set_page_config(page_title="MindCheck - Mental Health AI", layout="centered")
 
 st.App {
-    background-color: #fde8f1 !important;
+    background-color: "#fde8f1" 
 }
 
-# Custom CSS for better UI
 st.markdown("""
 <style>
     body {
@@ -44,7 +43,6 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-# Title Banner
 st.markdown("<div class='main-title'><h2>🧠 MindCheck - Mental Health Self Assessment</h2></div>", unsafe_allow_html=True)
 
 st.write("Your responses are **anonymous**. This tool is for **self-awareness**, not clinical diagnosis.")
@@ -114,3 +112,4 @@ if st.button("🔍 Analyze My Mental Health", use_container_width=True):
     st.plotly_chart(fig)
 
 st.markdown("<p class='footer-text'>✨ This assessment is educational and reflective. If you're struggling, please talk to someone who can support you.</p>", unsafe_allow_html=True)
+
