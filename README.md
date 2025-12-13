@@ -52,3 +52,9 @@ Visualizes depression vs anxiety using a radar chart
 
 This application is for educational and self-reflection purposes only.
 It does not replace professional mental health care. Users experiencing distress are encouraged to seek support from qualified mental health professionals.
+
+Demo:
+
+https://github.com/user-attachments/assets/b5b943e4-568a-4de4-a6eb-4139bd6ee40e
+
+
